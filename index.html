@@ -18,20 +18,24 @@
     <header>
         <nav id="navbar">
             <span class="navLogo">
-                <img src="img/logo1.png">
+                <a href="index.html">
+                    <img class="logo" src="img/logo1.png" alt="f"></a>
             </span>
-            <span class="navBarElement">
-                <a href="index.html">Home</a>
-            </span>
-            <span class="navBarElement">
-                <a href="products.html">Portfolio</a>
-            </span>
-            <span class="navBarElement">
-                <a href="about.html">About</a>
-            </span>
-            <span class="navBarElement">
-                <a href="about.html">Contact</a>
-            </span>
+            <div id="navbarNav">
+                <span>
+                    <a class="navBarElement" href="index.html">Home</a>
+                </span>
+                <span>
+                    <a class="navBarElement" href="products.html">Portfolio</a>
+                </span>
+                <span>
+                    <a class="navBarElement" href="about.html">About</a>
+                </span>
+                <span>
+                    <a class="navBarElement navBarContact" href="about.html">Contact</a>
+                </span>
+            </div>
+
         </nav>
 
     </header>
@@ -41,7 +45,7 @@
             <p>Venenatis a condimentum vitae sapien pellentesque habitant morbi. Nec feugiat in fermentum posuere urna
                 nec tincidunt. Orci sagittis eu volutpat odio facilisis. Proin fermentum leo vel orci porta non pulvinar
                 neque laoreet. </p>
-            <a href="about.html">Read more about our services</a>
+            <a class="navBarContact navBarElement" href="about.html">Read more about our services</a>
         </section>
 
         <section id="subheading">
@@ -52,13 +56,15 @@
         </section>
 
         <section id="about">
-            <img src="img/logo2.png">
-            <h3>About Our Company</h3>
-            <p>Eget sit amet tellus cras adipiscing enim eu turpis. Bibendum neque egestas congue quisque egestas. A
-                scelerisque purus semper eget duis at tellus at urna. In cursus turpis massa tincidunt dui ut ornare
-                lectus sit. Odio ut sem nulla pharetra diam sit amet. Tellus elementum sagittis vitae et leo duis ut
-                diam.</p>
-            <a href="about.html">Read more about us</a>
+            <img src="img/placeholder.png">
+            <span id="aboutInfo">
+                <h3>About Our Company</h3>
+                <p>Eget sit amet tellus cras adipiscing enim eu turpis. Bibendum neque egestas congue quisque egestas. A
+                    scelerisque purus semper eget duis at tellus at urna. In cursus turpis massa tincidunt dui ut ornare
+                    lectus sit. Odio ut sem nulla pharetra diam sit amet. Tellus elementum sagittis vitae et leo duis ut
+                    diam.</p>
+                <a id="aboutButton" href="about.html">Read more about us</a>
+            </span>
         </section>
 
         <section>
@@ -90,10 +96,11 @@
 
     <footer class="footer">
         <span class="navLogo">
-            <img src="img/logo1.png">
+            <a href="index.html">
+                <img src="img/logo1.png" alt="f"></a>
         </span>
         <span class="footerElement">
-        <h4>Company copyright 2023</h4>
+            <h4>Company copyright 2023</h4>
         </span>
         <span class="footerElement">
             <a href="products.html">facebook</a>
