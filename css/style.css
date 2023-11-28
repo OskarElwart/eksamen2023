@@ -1,3 +1,12 @@
+body {
+
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: #fff;
     height: 90px;
@@ -23,7 +32,7 @@ nav {
     background-color: #e6bd43;
     padding: 10px;
     width: fit-content;
-    margin:auto;
+    margin: auto;
 }
 
 .navBarContact:hover {
@@ -33,6 +42,8 @@ nav {
 
 .navLogo {
     justify-self: left;
+    padding-left: 10px;
+    padding-top: 4px;
 
 }
 
@@ -49,33 +60,25 @@ nav {
     padding-right: 1rem;
 }
 
-body {
-
-    width: 100%;
-    height: 100%;
-    min-height: 100vh;
-
-}
-
 h2 {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     color: black;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 h3 {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     color: black;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 h4 {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     color: black;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 p {
@@ -107,17 +110,23 @@ p {
     padding-bottom: 2rem;
 
 }
+
 #about {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
 }
+
 #aboutInfo {
     padding-left: 1rem;
     padding-bottom: 1rem;
 
 }
+
 #aboutButton {
     padding: 7px;
     text-decoration: none;
@@ -126,14 +135,106 @@ p {
     color: black;
     font-weight: bold;
     border: solid;
-    border-: 4px;
-    outline-width: 3px;
-    outline-offset
+}
+
+#services {
+    text-align: center;
+    flex: 1;
 
 }
 
-footer {
+#servicesItems {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+
+
+}
+
+.servicesItemElement {
+    flex: 1 1 0;
+    flex-basis: 0;
+
+}
+
+#newsletter {
+    background-color: #e7e7e7;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+#newsletterText {
+    width: fit-content;
+    height: 39px;
+    border: 0;
+    padding: 0;
+    padding-top: 2px;
+    margin: auto;
+}
+
+.newsletterButton {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    line-height: 28px;
+    color: black;
+    font-weight: bold;
+    background-color: #e6bd43;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+}
+
+.newsletterButton:hover {
+    color: #e6bd43;
+    background-color: black;
+}
+
+
+
+footer {
+    padding-top: 1rem;
+    color: #d8d8d8;
+    background-color: #252525;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 1rem;
+}
+
+.footerElement {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+}
+
+#footerCopyright {
+    font-weight: normal;
+    text-align: center;
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+
+#footerBar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+#footerLinks {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1rem;
+
 }
