@@ -336,6 +336,7 @@ textarea {
     row-gap: 15px;
     max-width: 100%;
     
+    
 
 }
 
@@ -380,7 +381,9 @@ footer {
     font-weight: normal;
     text-align: center;
     padding-left: 4rem;
-    padding-top: 1rem;
+    padding-top: 5rem;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
 #footerBar {
