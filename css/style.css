@@ -287,6 +287,12 @@ textarea {
     padding-top: 4rem;
 }
 
+.proImg {
+    max-width: 350px;
+    min-width: 200px;
+
+}
+
 #jobs {
     padding-left: 2rem;
     padding-top: 1rem;
@@ -314,10 +320,9 @@ textarea {
 
 }
 
-#brandingItems {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.gridItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 1rem;
@@ -327,13 +332,30 @@ textarea {
     border-top-width: 2px;
     padding-top: 2rem;
     padding-left: 2rem;
-
+    column-gap: 25px;
+    row-gap: 15px;
+    max-width: 100%;
+    
 
 }
 
-#design {}
+#design {
+    text-align: center;
+    flex: 1;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
-#development {}
+}
+
+#development {
+    text-align: center;
+    flex: 1;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
 
 footer {
     padding-top: 1rem;
