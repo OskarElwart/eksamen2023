@@ -127,7 +127,7 @@ p {
 
 }
 
-#aboutButton {
+.aboutButton {
     padding: 7px;
     text-decoration: none;
     text-align: center;
@@ -259,7 +259,8 @@ p {
 }
 
 .contactContent input,
-label, textarea {
+label,
+textarea {
     border: none;
     width: 100%;
     display: block;
@@ -278,6 +279,61 @@ label, textarea {
     width: 100%;
     height: 20rem;
 }
+
+#portfolio {
+    background-color: #d8d8d8;
+    height: 9rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+#jobs {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+#jobsElement {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    border-top: #e6bd43;
+    border-top-style: solid;
+    border-top-width: 2px;
+    padding-top: 2rem;
+}
+
+
+#branding {
+    text-align: center;
+    flex: 1;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+#brandingItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    border-top: #e6bd43;
+    border-top-style: solid;
+    border-top-width: 2px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+
+}
+
+#design {}
+
+#development {}
 
 footer {
     padding-top: 1rem;
