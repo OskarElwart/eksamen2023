@@ -305,10 +305,9 @@ textarea {
 }
 
 .proImg {
-    max-width: 350px;
     min-width: 200px;
-
 }
+
 
 #jobs {
     padding-left: 2rem;
@@ -338,8 +337,8 @@ textarea {
 }
 
 .gridItems {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 1rem;
@@ -351,9 +350,17 @@ textarea {
     padding-left: 2rem;
     column-gap: 25px;
     row-gap: 15px;
-    max-width: 100%;
 
+}
 
+.gridContentContainer {
+    flex-grow: 3;
+    max-width: 692px;
+}
+
+.gridContent {
+    width: 100%;
+    height: auto;
 
 }
 
@@ -424,9 +431,6 @@ footer {
 }
 
 @media only screen and (max-width: 750px) {
-    body {
-        background-color: rgb(255, 255, 0);
-    }
 
     #aboutIndex {
         flex-direction: column;
@@ -461,10 +465,6 @@ footer {
     #contactInfo {
         flex-direction: column;
     }
-
-
-
-
 
     nav {
         height: 300px;
@@ -503,5 +503,8 @@ footer {
 
     .gridItems {
         grid-template-columns: 1fr;
+    }
+    .proImg {
+        max-width: 350px;
     }
 }
